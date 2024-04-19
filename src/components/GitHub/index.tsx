@@ -11,11 +11,12 @@ export const GitHub = () => {
         </div>
 
         <DivGitHub>
-          <div>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-            fugit voluptatem sunt ut, deserunt beatae autem suscipit nihil sequi
-            et aspernatur in aperiam natus corrupti commodi illum possimus
-            consectetur excepturi!
+          <div className="divGitDescricao">
+            Dê uma olhada no meu GitHub e mergulhe nos projetos que refletem
+            minha jornada como desenvolvedor. De pequenas ferramentas a
+            aplicativos robustos, cada commit representa minha busca incessante
+            pela excelência técnica. Explore e descubra como transformo desafios
+            em soluções inovadoras.
           </div>
           <div>
             <div className="divImgGitHub">

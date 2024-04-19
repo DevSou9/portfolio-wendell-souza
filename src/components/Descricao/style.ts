@@ -1,14 +1,31 @@
 import styled from 'styled-components'
-import { colors } from '../../Global/variaveis'
+import { breakpoints, colors } from '../../Global/variaveis'
 
 export const StyleDescricao = styled.div`
-  /* min-height: 70vh; */
   height: calc(90vh - 138px);
   display: grid;
   grid-template-columns: 2fr 3fr;
   column-gap: 40px;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: ${breakpoints.mobile}) {
+    grid-template-columns: 1fr;
+    height: auto;
+
+    .divDescricao {
+      order: 2;
+    }
+
+    .divGridHero {
+      order: 1;
+      justify-content: center;
+    }
+  }
+
+  @media ((max-width: ${breakpoints.tablet}) and (min-width: ${breakpoints.mobile})) {
+    height: auto;
+  }
 
   padding: 0 24px;
 
@@ -47,6 +64,10 @@ export const StyleDescricao = styled.div`
     width: 100%;
     display: flex;
     justify-content: flex-end;
+
+    @media (max-width: ${breakpoints.mobile}) {
+      justify-content: center;
+    }
   }
 
   .hero {

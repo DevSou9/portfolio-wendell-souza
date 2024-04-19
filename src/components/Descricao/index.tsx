@@ -9,7 +9,7 @@ export const Descricao = () => {
   return (
     <DivContainers>
       <StyleDescricao id="IdDescricao">
-        <div>
+        <div className="divDescricao">
           <div className="divTitulo">
             <span className="spanTitulo">Desenvolvedor</span>
             <h3 className="h3Nome">Front-End Wendell Souza</h3>
