@@ -8,7 +8,7 @@ import { colors } from '../../Global/variaveis'
 export const Descricao = () => {
   return (
     <DivContainers>
-      <StyleDescricao>
+      <StyleDescricao id="IdDescricao">
         <div>
           <div className="divTitulo">
             <span className="spanTitulo">Desenvolvedor</span>
@@ -17,8 +17,7 @@ export const Descricao = () => {
 
           <div className="divP">
             <p>
-              Desenvolvedor Front-end pela EBAC – Escola Britânica de Artes
-              Criativas e Tecnologia, graduado em Análise e Desenvolvimento de
+              Desenvolvedor Front-end, graduado em Análise e Desenvolvimento de
               Sistemas, com mais de 15 anos de experiência nas mais diversas
               áreas de TI. Profissional com perfil movido a desafios e focado em
               resolução de problemas.

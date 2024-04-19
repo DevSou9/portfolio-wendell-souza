@@ -15,6 +15,10 @@ export const GlobalStyle = createGlobalStyle`
       list-style: none;
     }
 
+    p{
+      font-size: 16px;
+    }
+
     h3 {
 
     font-size: 28px;
@@ -38,5 +42,9 @@ export const GlobalStyle = createGlobalStyle`
       margin-bottom: 24px;
 
     }
+  }
+
+  .divSubTitulo{
+    padding-left: 24px;
   }
 `

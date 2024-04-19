@@ -10,3 +10,7 @@ declare type PropsDivContainer = {
   margin?: string
   padding?: string
 }
+
+declare type PropsHeader = {
+  stausIsOpen: boolean
+}

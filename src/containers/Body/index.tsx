@@ -5,8 +5,8 @@ import { Container } from '../Container'
 import { Descricao } from '../../components/Descricao'
 import { Tecnologias } from '../../components/Tecnologias'
 import { GitHub } from '../../components/GitHub'
-import { Apis } from '../../components/Apis'
 import { Porfolio } from '../../components/Portfolio'
+import { FooterComponent } from '../../footer'
 
 export const Body = () => {
   return (
@@ -17,8 +17,8 @@ export const Body = () => {
           <Descricao />
           <Tecnologias />
           <GitHub />
-          <Apis />
           <Porfolio />
+          <FooterComponent />
         </Container>
       </StyleBody>
     </>
