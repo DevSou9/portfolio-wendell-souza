@@ -16,6 +16,12 @@ export const DivCardPortfolio = styled.div`
 
   p {
     font-size: 14px;
+
+    @media (max-width: ${breakpoints.mobile}) {
+      p {
+        font-size: 18px;
+      }
+    }
   }
 
   .divCardPortfolio {

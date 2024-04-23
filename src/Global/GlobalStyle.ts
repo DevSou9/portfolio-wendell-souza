@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
-import { colors } from './variaveis'
+import { breakpoints, colors } from './variaveis'
 
 export const GlobalStyle = createGlobalStyle`
   *{
@@ -17,6 +17,12 @@ export const GlobalStyle = createGlobalStyle`
 
     p{
       font-size: 16px;
+
+      @media(max-width: ${breakpoints.tablet}){
+        p{
+          font-size: 18px;
+        }
+      }
     }
 
     h3 {

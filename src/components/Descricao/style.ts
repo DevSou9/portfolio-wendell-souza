@@ -32,6 +32,12 @@ export const StyleDescricao = styled.div`
   p {
     font-size: 14px;
     color: ${colors.gray};
+
+    @media (max-width: ${breakpoints.mobile}) {
+      p {
+        font-size: 18px;
+      }
+    }
   }
 
   .divP {
