@@ -75,7 +75,7 @@ export const Porfolio = () => {
           <img src={efood} alt="Efood" />
 
           <div className="divH4CardPortfolio">
-            <h4>E-commerce Efood para Desktop</h4>
+            <h4>E-commerce Responsivo Efood</h4>
           </div>
 
           <div className="divPCardPortfolio">
