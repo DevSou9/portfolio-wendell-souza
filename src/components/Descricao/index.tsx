@@ -12,7 +12,7 @@ export const Descricao = () => {
         <div className="divDescricao">
           <div className="divTitulo">
             <span className="spanTitulo">Desenvolvedor</span>
-            <h3 className="h3Nome">Front-End Wendell Souza</h3>
+            <h3 className="h3Nome">Full Stack Wendell Souza</h3>
           </div>
 
           <div className="divP">
